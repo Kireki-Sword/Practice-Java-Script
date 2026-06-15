@@ -12,6 +12,7 @@ body {
 
 #allBtn{
     text-align: center;
+    gap: 1em;
 }
 
 .buttons {
@@ -20,7 +21,6 @@ body {
     font-size: 1.5em;
     color:white;
     background-color:rgba(0, 153, 255, 0.836);
-    gap: 1em;
 }
 .buttons:hover { 
     background-color:rgba(0, 153, 255, 0.342);
