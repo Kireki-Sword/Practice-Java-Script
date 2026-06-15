@@ -24,6 +24,5 @@ body {
 }
 .buttons:hover { 
     background-color:rgba(0, 153, 255, 0.342);
-    font-size:2em;
     cursor:pointer;
 } 
