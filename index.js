@@ -10,8 +10,10 @@ increase.onclick = function(){
     label.textContent = count;
 }
 decrease.onclick = function(){
-    count--;
-    label.textContent = count;
+    if (Number(count) > 0) {
+        count--;
+        label.textContent = count;
+    }
 }
 reset.onclick = function(){
     count = 0;
